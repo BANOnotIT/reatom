@@ -388,3 +388,5 @@ export const doSome = action((ctx) => {
   ctx.schedule(() => clearTimeout(newTimeoutId), -1)
 })
 ```
+
+test
