@@ -1,5 +1,7 @@
 {
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "release-type": "node",
+  "plugins": ["node-workspace"],
   "bootstrap-sha": "a0216d2ed068262259e193559dcff94411675931",
   "packages": {
     "packages/all-settled": {},
@@ -11,9 +13,7 @@
     "packages/eslint-plugin": {},
     "packages/form": {},
     "packages/form-web": {},
-    "packages/framework": {
-      "plugins": ["node-workspace"]
-    },
+    "packages/framework": {},
     "packages/hooks": {},
     "packages/lens": {},
     "packages/logger": {},
