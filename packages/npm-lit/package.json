@@ -1,6 +1,6 @@
 {
   "name": "@reatom/npm-lit",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "private": true,
   "sideEffects": false,
   "description": "Reatom for npm-lit",
@@ -23,10 +23,10 @@
     "test:watch": "tsx watch src/index.test.ts"
   },
   "dependencies": {
-    "@reatom/async": "^3.1.0",
-    "@reatom/utils": "^3.1.0",
+    "@reatom/async": "^3.4.1",
+    "@reatom/utils": "^3.1.8",
     "lit": "^2.6.0",
-    "@reatom/core": "^3.1.0"
+    "@reatom/core": "^3.2.0"
   },
   "author": "kaifaty",
   "maintainers": [

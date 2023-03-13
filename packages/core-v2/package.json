@@ -1,6 +1,6 @@
 {
   "name": "@reatom/core-v2",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "private": false,
   "sideEffects": false,
   "description": "Reatom adapter for core-v2",
@@ -21,7 +21,7 @@
     "test:watch": "tsx watch src/index.test.ts"
   },
   "dependencies": {
-    "@reatom/core": "^3.1.0"
+    "@reatom/core": "^3.2.0"
   },
   "author": "artalar",
   "license": "MIT",
