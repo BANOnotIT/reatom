@@ -1,6 +1,5 @@
 {
   "release-type": "node",
-  "plugins": ["node-workspace"],
   "bootstrap-sha": "a0216d2ed068262259e193559dcff94411675931",
   "packages": {
     "packages/all-settled": {},
@@ -12,7 +11,9 @@
     "packages/eslint-plugin": {},
     "packages/form": {},
     "packages/form-web": {},
-    "packages/framework": {},
+    "packages/framework": {
+      "plugins": ["node-workspace"]
+    },
     "packages/hooks": {},
     "packages/lens": {},
     "packages/logger": {},
