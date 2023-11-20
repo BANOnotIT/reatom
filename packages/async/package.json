@@ -6,9 +6,13 @@
   "description": "Reatom for async",
   "source": "src/index.ts",
   "exports": {
-    "types": "./build/index.d.ts",
-    "require": "./build/index.js",
-    "default": "./build/index.module.js"
+    ".": {
+      "types": "./build/index.d.ts",
+      "require": "./build/index.js",
+      "default": "./build/index.module.js"
+    },
+    "./README.md": "./README.md",
+    "./package.json": "./package.json"
   },
   "main": "build/index.js",
   "module": "build/index.module.js",

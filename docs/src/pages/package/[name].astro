@@ -1,0 +1,27 @@
+---
+import {REGISTRY} from "./package-registry";
+
+export async function getStaticPaths() {
+    return Object.entries(REGISTRY).map(([name, props]) => (({
+        params: {
+            name
+        },
+        props: {
+            ...props,
+            name
+        }
+    })))
+}
+
+const {name} = Astro.params
+const {readme: {Content, getHeadings}, pkg} = Astro.props
+---
+
+<pre>
+    <code>
+{JSON.stringify(getHeadings())}
+    </code>
+</pre>
+
+<Content/>
+

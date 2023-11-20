@@ -12,6 +12,10 @@
     "update": "npx npm-check-updates -u"
   },
   "dependencies": {
+    "@reatom/async": "^3.0.0",
+    "@reatom/timer": "^3.0.0"
+  },
+  "devDependencies": {
     "@astrojs/starlight": "^0.7.0",
     "@codemirror/lang-javascript": "^6.1.9",
     "@codemirror/state": "^6.2.1",
@@ -24,9 +28,7 @@
     "sharp": "^0.32.4",
     "sucrase": "^3.34.0",
     "tsx": "^3.12.7",
-    "typescript": "^5.1.6"
-  },
-  "devDependencies": {
+    "typescript": "^5.1.6",
     "zx": "^7.2.3"
   }
 }
