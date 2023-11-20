@@ -1,7 +1,7 @@
 import { $ } from 'zx'
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
-if (!process.env.VERCEL) await $`tsx sync-readme-to-pages.ts`
+// if (!process.env.VERCEL) await $`tsx sync-readme-to-pages.ts`
 
 // https://astro.build/config
 export default defineConfig({
